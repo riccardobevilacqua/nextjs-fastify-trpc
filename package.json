@@ -1,0 +1,25 @@
+{
+  "name": "nextjs-fastify-trpc",
+  "version": "1.0.0",
+  "description": "Integration of a Next.js client with a Fastify server.",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "turbo run start",
+    "lint": "turbo run lint",
+    "test": "turbo run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "packageManager": "npm@11.0.0",
+  "devDependencies": {
+    "turbo": "^2.4.4"
+  }
+}
